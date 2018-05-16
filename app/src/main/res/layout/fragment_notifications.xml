@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonNot"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:text="Notificaciones" />
+
+        <Button
+            android:id="@+id/buttonFails"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="2dp"
+            android:text="Alertas" />
+
+        <ListView
+            android:id="@+id/_dynamicList"
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonNot"
+            android:choiceMode="multipleChoice" />
+    </RelativeLayout>
+
+</FrameLayout>

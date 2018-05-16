@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_routes"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="@string/rutas" />
+
+    <item
+        android:id="@+id/navigation_passengers"
+        android:icon="@drawable/ic_accessibility_black_24dp"
+        android:title="@string/pasajeros" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/notificaciones" />
+
+    <item
+        android:id="@+id/navigation_alerts"
+        android:icon="@drawable/ic_report_problem_black_24dp"
+        android:title="@string/alertas" />
+
+</menu>

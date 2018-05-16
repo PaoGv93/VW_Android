@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassengerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/buttom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageUp"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/moving"
+            android:background="@color/colorGreen"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/ic_arrow_double_up" />
+
+        <ImageButton
+            android:id="@+id/imageDown"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageUp"
+            android:background="@android:color/holo_red_dark"
+            app:srcCompat="@drawable/ic_arrow_double_down" />
+
+        <TextView
+            android:id="@+id/number_passengers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageDown"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="157dp"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/moving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="Llevando"
+            android:textColor="@android:color/black"
+            android:textSize="26sp" />
+
+    </RelativeLayout>
+</FrameLayout>
